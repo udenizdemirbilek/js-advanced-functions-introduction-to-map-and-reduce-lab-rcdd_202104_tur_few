@@ -44,7 +44,6 @@ function reduceToAllTrue(sourceArray) {
         if(element){
         } else {
             output = false;
-            // return output
         }
     });
     return output;
@@ -55,7 +54,6 @@ function reduceToAnyTrue(sourceArray) {
     sourceArray.forEach(element => {
         if(element){
             output = true;
-            // return output
         } else {}
     });
     return output;
